@@ -79,20 +79,20 @@ int main() {
 
                     // Логика проверки точки по переменным mathX и mathY
                     std::string zone;
-                    if ((mathX >= 0 and mathY > 0 and mathX < mathY) or (mathY > 0 and abs(mathX) < mathY)) {
+                    if (mathY == mathX or mathY == -1*mathX) {
+                        zone = "Border";
+                    }                 
+                    else if (mathY > -mathX and mathY > mathX) {
                         zone = '1';
-                    }
-                    else if (mathY == mathX or mathY == -1*mathX) {
-                                            zone = "Border";
-                                        }
-                    else if ((mathX > 0 and mathY >= 0 and mathX > mathY) or (mathX > 0 and mathX > abs(mathY))) {
-                        zone = "4";
-                    }
-                    else if ((mathX >= 0 and mathY < 0 and mathX < abs(mathY)) or (mathY < 0 and mathX > mathY)) {
-                        zone = "3";
-                    }              
-                    else {
+                    }                   
+                    else if (mathY < -mathX and mathY > mathX) {
                         zone = "2";
+                    }
+                    else if (mathY < -mathX and mathY < mathX) {
+                        zone = "3";
+                    }
+                    else if (mathY > -mathX and mathY < mathX) {
+                        zone = "4";
                     }
                     // Обновление текста с координатами точки и зоны
                     coordinatesText.setString("Coordinates: (" + std::to_string(mathX) + ", " + std::to_string(mathY) + ") Zone: " + zone);
@@ -110,10 +110,10 @@ int main() {
         window.draw(yAxis);
         window.draw(coordinatesText);
 
-        // Отрисовка графика y1 = x
+        // Отрисовка графика y = x
         drawGraph(window, [](float x) {return x;}, -10, 10, 30, 30, sf::Color::Red);
 
-        // Отрисовка графика y2 = -x
+        // Отрисовка графика y = -x
         drawGraph(window, [](float x) {return -x;}, -10, 10, 30, 30, sf::Color::Blue);
 
         // Отрисовка пользовательской точки, если она существует
