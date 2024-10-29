@@ -1,0 +1,4 @@
+﻿  Grids.cpp
+C:\Users\GinDoyr\source\repos\Project1\Grids.cpp(20,53): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\GinDoyr\source\repos\Project1\Grids.cpp(20,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Project1.vcxproj -> C:\Users\GinDoyr\source\repos\Project1\x64\Debug\Grid_Work.exe
