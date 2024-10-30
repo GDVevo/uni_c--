@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "Russian");
 
-    sf::RenderWindow window(sf::VideoMode(500, 500), L"Матрица: Перезагрузка");
+    sf::RenderWindow window(sf::VideoMode(500, 500), L"ГЊГ ГІГ°ГЁГ¶Г : ГЏГҐГ°ГҐГ§Г ГЈГ°ГіГ§ГЄГ ");
     
     const int cellSize = 50;
     const int gridSize = 10;
@@ -21,8 +21,8 @@ int main() {
             cells[x][y].setOutlineColor(sf::Color::Black);
             cells[x][y].setOutlineThickness(1);
 
-            //Проверка по условию задания
-            if (x-y<=4 and x>=4 and x+y <= 13)
+            //ГЏГ°Г®ГўГҐГ°ГЄГ  ГЇГ® ГіГ±Г«Г®ГўГЁГѕ Г§Г Г¤Г Г­ГЁГї
+            if (x-y<= ((gridSize - 2) / 2) and x>= ((gridSize - 2) / 2) and x+y < (gridSize + (gridSize - 2) / 2))
             {
                 cells[x][y].setFillColor(sf::Color::Green);
             }
