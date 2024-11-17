@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\GinDoyr\source\repos\game\include\SFML-2.6.1\include\SFML\Graphics\</FILEPATH>
+      <FILENAME>Glyph.hpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "sf::Glyph::rsbDelta" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>sf::Glyph::{ctor}</FUNCTION>
+    <DECORATED>??0Glyph@sf@@QEAA@XZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>sf::Glyph::rsbDelta</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\GinDoyr\source\repos\game\include\SFML-2.6.1\include\SFML\Graphics\</FILEPATH>
+      <FILENAME>Glyph.hpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "sf::Glyph::lsbDelta" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>sf::Glyph::{ctor}</FUNCTION>
+    <DECORATED>??0Glyph@sf@@QEAA@XZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>sf::Glyph::lsbDelta</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\GinDoyr\source\repos\game\</FILEPATH>
+      <FILENAME>TmxLevel.h</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "TmxObject::id" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>TmxObject::{ctor}</FUNCTION>
+    <DECORATED>??0TmxObject@@QEAA@XZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TmxObject::id</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

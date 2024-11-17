@@ -1,0 +1,14 @@
+﻿  GameScene.cpp
+C:\Users\GinDoyr\source\repos\game\GameScene.cpp(77,97): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\GinDoyr\source\repos\game\GameScene.cpp(77,97): warning C4244:         with
+C:\Users\GinDoyr\source\repos\game\GameScene.cpp(77,97): warning C4244:         [
+C:\Users\GinDoyr\source\repos\game\GameScene.cpp(77,97): warning C4244:             T=float
+C:\Users\GinDoyr\source\repos\game\GameScene.cpp(77,97): warning C4244:         ]
+C:\Users\GinDoyr\source\repos\game\GameScene.cpp(77,79): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\GinDoyr\source\repos\game\GameScene.cpp(77,79): warning C4244:         with
+C:\Users\GinDoyr\source\repos\game\GameScene.cpp(77,79): warning C4244:         [
+C:\Users\GinDoyr\source\repos\game\GameScene.cpp(77,79): warning C4244:             T=float
+C:\Users\GinDoyr\source\repos\game\GameScene.cpp(77,79): warning C4244:         ]
+  main.cpp
+  Создание кода...
+  game.vcxproj -> C:\Users\GinDoyr\source\repos\game\x64\Debug\game.exe

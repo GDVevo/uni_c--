@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\GinDoyr\source\repos\game\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "tinyxml2::DynArray&lt;char,20&gt;::_pool" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;char,20&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@D$0BE@@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>195</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;char,20&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\GinDoyr\source\repos\game\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "tinyxml2::DynArray&lt;char const *,10&gt;::_pool" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;char const *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEBD$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>195</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;char const *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\GinDoyr\source\repos\game\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;96&gt;::Block *,10&gt;::_pool" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;96&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0GA@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>195</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;96&gt;::Block *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\GinDoyr\source\repos\game\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;104&gt;::Block *,10&gt;::_pool" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;104&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0GI@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>195</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;104&gt;::Block *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\GinDoyr\source\repos\game\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;72&gt;::Block *,10&gt;::_pool" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;72&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0EI@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>195</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;72&gt;::Block *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\GinDoyr\source\repos\game\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;112&gt;::Block *,10&gt;::_pool" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;112&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0HA@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>195</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;112&gt;::Block *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
