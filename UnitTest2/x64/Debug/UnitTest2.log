@@ -1,0 +1,8 @@
+﻿  UnitTest2.cpp
+C:\Users\GinDoyr\Documents\GitHub\uni_c--\math_stuff\math_stuff.cpp(13,43): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "/UnitTest2.cpp")
+  
+C:\Users\GinDoyr\Documents\GitHub\uni_c--\UnitTest2\UnitTest2.cpp(18,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "/UnitTest2.cpp")
+  
+  UnitTest2.vcxproj -> C:\Users\GinDoyr\Documents\GitHub\uni_c--\math_stuff\x64\Debug\UnitTest2.dll
